@@ -1,0 +1,76 @@
+/* Login CSS */
+
+/* FIXME: THIS IS FOR DEBUGGING ONLY */
+.application .app_login {
+	display: none;
+}
+
+.application.login .app_login {
+	display: block;
+}
+
+/* Application background */
+.application.login {
+	background: url('../img/app/login_bg.jpg') top center;
+	background-size: cover;
+}
+
+.app_login {
+	max-width: 770px;
+	margin: 0 auto;
+	position: relative;
+	z-index:9999;
+}
+
+/* Login Panel */
+.application.login {
+	padding: 300px 0;
+}
+
+.login_panel {
+	width: 768px;
+	border-bottom: 1px solid #352e3f;
+	border-radius: 6px;
+	margin: 30px auto;
+	background: url('../img/login_bg.jpg') top center;
+	height: 300px;
+	position: relative;
+}
+
+.login_panel .battlenet,
+.login_panel .login_form {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.login_panel .battlenet .logo {
+	margin-top: 60px;
+}
+
+.login_panel button {
+	margin: 0 auto;
+}
+
+.extra_info {
+	color: #a9749b;
+	font-size: 11px;
+	padding: 16px 0px;
+	cursor: pointer;
+	position: relative;
+}
+
+/* Login Form */
+.login_form h3 {
+	margin-top: 30px;
+	color: #605a6f;
+	font-size: 24px;
+}
+
+.login_or {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	margin:-24px 0 0 -15px;
+}
